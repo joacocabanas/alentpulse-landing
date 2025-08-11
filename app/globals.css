@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colores Talent Pulse */
+:root{
+  --tp-primary:#4965D1;
+  --tp-secondary:#49D1BB;
+  --tp-accent:#48B9D0;
+  --tp-success:#49D18D;
+  --tp-info:#4990D1;
+}
