@@ -1,12 +1,11 @@
-import './globals.css';
-import type { Metadata } from 'next';
+import "./globals.css";
 
-export const metadata: Metadata = {
-  title: 'Talent Pulse — Executive & Mid-Level Search + RPO',
-  description: 'AI-accelerated recruitment across US & LATAM.',
+export const metadata = {
+  title: "Talent Pulse — Executive & Mid-Level Search + RPO",
+  description: "AI-accelerated recruitment across US & LATAM.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
